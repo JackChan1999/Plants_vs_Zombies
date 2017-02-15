@@ -1,5 +1,10 @@
 package com.itheima.pvzhm52.bean;
 
+import com.itheima.pvzhm52.base.BaseElement;
+import com.itheima.pvzhm52.base.Plant;
+import com.itheima.pvzhm52.base.Zombies;
+import com.itheima.pvzhm52.utils.CommonUtils;
+
 import org.cocos2d.actions.CCScheduler;
 import org.cocos2d.actions.base.CCAction;
 import org.cocos2d.actions.instant.CCCallFunc;
@@ -8,12 +13,26 @@ import org.cocos2d.actions.interval.CCSequence;
 import org.cocos2d.types.CGPoint;
 import org.cocos2d.types.util.CGPointUtil;
 
-import com.itheima.pvzhm52.base.BaseElement;
-import com.itheima.pvzhm52.base.Plant;
-import com.itheima.pvzhm52.base.Zombies;
-import com.itheima.pvzhm52.engine.GameCotroller;
-import com.itheima.pvzhm52.utils.CommonUtils;
-
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2017/2/15 11:50
+ * des ：植物大战僵尸
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class PrimaryZombies extends Zombies {
 
 	public PrimaryZombies(CGPoint startPoint, CGPoint endPoint) {

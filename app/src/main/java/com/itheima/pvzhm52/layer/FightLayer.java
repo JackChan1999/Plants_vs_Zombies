@@ -1,9 +1,11 @@
 package com.itheima.pvzhm52.layer;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
+import android.view.MotionEvent;
+
+import com.itheima.pvzhm52.bean.ShowPlant;
+import com.itheima.pvzhm52.bean.ShowZombies;
+import com.itheima.pvzhm52.engine.GameCotroller;
+import com.itheima.pvzhm52.utils.CommonUtils;
 
 import org.cocos2d.actions.base.CCAction;
 import org.cocos2d.actions.instant.CCCallFunc;
@@ -12,8 +14,6 @@ import org.cocos2d.actions.interval.CCDelayTime;
 import org.cocos2d.actions.interval.CCMoveBy;
 import org.cocos2d.actions.interval.CCMoveTo;
 import org.cocos2d.actions.interval.CCSequence;
-import org.cocos2d.layers.CCLayer;
-import org.cocos2d.layers.CCTMXObjectGroup;
 import org.cocos2d.layers.CCTMXTiledMap;
 import org.cocos2d.nodes.CCDirector;
 import org.cocos2d.nodes.CCSprite;
@@ -21,19 +21,31 @@ import org.cocos2d.types.CGPoint;
 import org.cocos2d.types.CGRect;
 import org.cocos2d.types.CGSize;
 
-import android.view.MotionEvent;
-
-import com.itheima.pvzhm52.bean.ShowPlant;
-import com.itheima.pvzhm52.bean.ShowZombies;
-import com.itheima.pvzhm52.engine.GameCotroller;
-import com.itheima.pvzhm52.utils.CommonUtils;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * 对战界面的图层
- * 
- * @author itcast
- * 
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2017/2/15 11:50
+ * des ：对战界面的图层
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class FightLayer extends BaseLayer {
 	public static final int TAG_CHOSE = 10;
 	private CCTMXTiledMap map;

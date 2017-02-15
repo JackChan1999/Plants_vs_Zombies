@@ -1,18 +1,5 @@
 package com.itheima.pvzhm52.engine;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import org.cocos2d.actions.CCProgressTimer;
-import org.cocos2d.actions.CCScheduler;
-import org.cocos2d.actions.instant.CCCallFunc;
-import org.cocos2d.layers.CCTMXTiledMap;
-import org.cocos2d.nodes.CCDirector;
-import org.cocos2d.nodes.CCSprite;
-import org.cocos2d.types.CGPoint;
-import org.cocos2d.types.CGRect;
-
 import com.itheima.pvzhm52.base.Plant;
 import com.itheima.pvzhm52.bean.Nut;
 import com.itheima.pvzhm52.bean.PeasePlant;
@@ -21,12 +8,38 @@ import com.itheima.pvzhm52.bean.ShowPlant;
 import com.itheima.pvzhm52.layer.FightLayer;
 import com.itheima.pvzhm52.utils.CommonUtils;
 
+import org.cocos2d.actions.CCProgressTimer;
+import org.cocos2d.actions.CCScheduler;
+import org.cocos2d.layers.CCTMXTiledMap;
+import org.cocos2d.nodes.CCDirector;
+import org.cocos2d.nodes.CCSprite;
+import org.cocos2d.types.CGPoint;
+import org.cocos2d.types.CGRect;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 /**
- * 处理游戏开始后的操作
- * 
- * @author itcast
- * 
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2017/2/15 11:50
+ * des ：处理游戏开始后的操作
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class GameCotroller {
 	private GameCotroller() {
 	}

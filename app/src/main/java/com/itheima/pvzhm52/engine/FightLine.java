@@ -13,13 +13,27 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 /**
- * 把一行的操作 抽取出来 每一行可以添加僵尸 安放植物 僵尸攻击植物 植物攻击僵尸
- * 
- * @author itcast
- * 
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2017/2/15 11:50
+ * des ：把一行的操作 抽取出来 每一行可以添加僵尸 安放植物 僵尸攻击植物 植物攻击僵尸
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class FightLine {
 	private int lineNum;
 

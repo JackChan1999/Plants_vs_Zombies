@@ -1,15 +1,32 @@
 package com.itheima.pvzhm52.layer;
 
-import org.cocos2d.actions.instant.CCCallFunc;
-import org.cocos2d.layers.CCLayer;
+import com.itheima.pvzhm52.utils.CommonUtils;
+
 import org.cocos2d.menus.CCMenu;
 import org.cocos2d.menus.CCMenuItem;
 import org.cocos2d.menus.CCMenuItemSprite;
-import org.cocos2d.nodes.CCNode;
 import org.cocos2d.nodes.CCSprite;
 
-import com.itheima.pvzhm52.utils.CommonUtils;
-
+/**
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：http://blog.csdn.net/axi295309066
+ * 微博：AndroidDeveloper
+ * <p>
+ * Project_Name：pvzhm52
+ * Package_Name：com.itheima.pvzhm52
+ * Version：1.0
+ * time：2017/2/15 11:50
+ * des ：植物大战僵尸
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
 public class MenuLayer extends BaseLayer {
 	public MenuLayer(){
 		init();
